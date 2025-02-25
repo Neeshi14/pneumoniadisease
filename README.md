@@ -27,3 +27,6 @@ The severity of pneumonia can range from mild to life-threatening, and certain p
 Treatment depends on the underlying cause of pneumonia. Bacterial pneumonia is often treated with antibiotics, while viral pneumonia may require antiviral medications. Supportive care, including rest, hydration, and sometimes hospitalization, may be necessary depending on the severity of the illness.
 
 Preventive measures include vaccination against certain bacteria and viruses that can cause pneumonia, practicing good hand hygiene, avoiding smoking, and maintaining overall health to support a robust immune system. If you suspect you or someone else may have pneumonia, it is important to seek medical attention for an accurate diagnosis and appropriate treatment.
+
+
+
