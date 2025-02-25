@@ -1,6 +1,8 @@
 Pneumonia Disease
 
-What is Pneumonia?¶
+What is Pneumonia?
+
+
 Pneumonia is a respiratory infection that inflames the air sacs in one or both lungs. The air sacs may fill with fluid or pus, causing symptoms such as cough, fever, chills, and difficulty breathing. Pneumonia can be caused by a variety of microorganisms, including bacteria, viruses, and fungi.
 
 Common symptoms of pneumonia include:
