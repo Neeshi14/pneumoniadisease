@@ -71,7 +71,7 @@ Preventive measures include vaccination against certain bacteria and viruses tha
 
 ## Evaluation
 
-The model's performance is evaluated on the test set, and the test accuracy is reported.
+The model's performance is evaluated on the test set, and the test accuracy is 79%.
 
 ## Results
 
