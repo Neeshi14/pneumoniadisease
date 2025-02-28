@@ -1,4 +1,4 @@
-Pneumonia Disease
+# Pneumonia Disease
 
 What is Pneumonia?
 
@@ -34,21 +34,17 @@ Preventive measures include vaccination against certain bacteria and viruses tha
 
 1.  **Download the dataset:**
 
-    Run the provided Python script, which will automatically download and extract the dataset from Kaggle.
+   Automatically download and extract the dataset from Kaggle.
 
-2.  **Run the model:**
+2.  **Prepare the model:**
 
-    Execute the Python script to train and evaluate the model. The script will perform the following steps:
+    The script will perform the following steps:
 
     * Load the dataset.
     * Preprocess the images (resize, convert to grayscale, normalize).
     * Load the pre-trained ResNet50 model and modify it for binary classification.
     * Train the model.
     * Evaluate the model on the test set.
-
-    ```bash
-    python your_script_name.py
-    ```
 
 ## Model Architecture
 
@@ -66,7 +62,7 @@ Preventive measures include vaccination against certain bacteria and viruses tha
 * **Learning Rate:** 0.001
 * **Image Size:** 150x150
 * **Grayscale Images:** The model processes grayscale images.
-* **Transfer Learning:** Pretrained Resnet50 with frozen layers, only the final fully connected layers are trained.
+* **Transfer Learning:** Pretrained Resnet50 with non frozen layers and the final fully connected layers are trained.
 * **Device:** Cuda if available, else CPU.
 
 ## Evaluation
@@ -77,12 +73,6 @@ The model's performance is evaluated on the test set, and the test accuracy is 7
 
 The model achieves good accuracy in detecting pneumonia from chest X-ray images.
 
-## Future Improvements
 
-* Implement data augmentation techniques to improve model robustness.
-* Experiment with different pre-trained models and architectures.
-* Explore techniques for handling class imbalance.
-* Add more detailed metrics such as precision, recall and F1 scores.
-* Add a confusion matrix.
 
 
