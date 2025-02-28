@@ -32,3 +32,57 @@ Preventive measures include vaccination against certain bacteria and viruses tha
 
 
 
+1.  **Download the dataset:**
+
+    Run the provided Python script, which will automatically download and extract the dataset from Kaggle.
+
+2.  **Run the model:**
+
+    Execute the Python script to train and evaluate the model. The script will perform the following steps:
+
+    * Load the dataset.
+    * Preprocess the images (resize, convert to grayscale, normalize).
+    * Load the pre-trained ResNet50 model and modify it for binary classification.
+    * Train the model.
+    * Evaluate the model on the test set.
+
+    ```bash
+    python your_script_name.py
+    ```
+
+## Model Architecture
+
+* **Backbone:** ResNet50 (pre-trained on ImageNet)
+* **Input:** Grayscale chest X-ray images (150x150 pixels)
+* **Modification:** The first convolution layer of the ResNet50 is modified to accept single-channel grayscale images.
+* **Classification Head:** A custom classification head with two fully connected layers and a sigmoid activation function is added for binary classification.
+* **Loss Function:** Binary Cross-Entropy Loss (BCELoss)
+* **Optimizer:** Adam
+
+## Training Details
+
+* **Epochs:** 5
+* **Batch Size:** 32
+* **Learning Rate:** 0.001
+* **Image Size:** 150x150
+* **Grayscale Images:** The model processes grayscale images.
+* **Transfer Learning:** Pretrained Resnet50 with frozen layers, only the final fully connected layers are trained.
+* **Device:** Cuda if available, else CPU.
+
+## Evaluation
+
+The model's performance is evaluated on the test set, and the test accuracy is reported.
+
+## Results
+
+The model achieves good accuracy in detecting pneumonia from chest X-ray images.
+
+## Future Improvements
+
+* Implement data augmentation techniques to improve model robustness.
+* Experiment with different pre-trained models and architectures.
+* Explore techniques for handling class imbalance.
+* Add more detailed metrics such as precision, recall and F1 scores.
+* Add a confusion matrix.
+
+
