@@ -35,6 +35,12 @@ Preventive measures include vaccination against certain bacteria and viruses tha
 1.  **Download the dataset:**
 
    Automatically download and extract the dataset from Kaggle.
+  ## Dataset
+
+  You can access the dataset [here](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia).
+
+
+
 
 2.  **Prepare the model:**
 
